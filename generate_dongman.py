@@ -57,7 +57,7 @@ if __name__ == "__main__":
     main_gui = CreateQGUI(title="基于PaddleHub的宫崎骏动漫动漫风格化")
 
     # 在界面最上方添加一个按钮，链接到GitHub主页
-    main_gui.add_banner_tool(GitHub("https://github.com/QPT-Family/QGUI"))
+    main_gui.add_banner_tool(GitHub("https://hub.fastgit.org/livingbody/animegan_v2_hayao_99_desk"))
     # 在主界面部分添加一个文件选择工具
     main_gui.add_notebook_tool(ChooseFileTextButton(name="文件输入框"))
     # 再加个文件夹选择工具
@@ -69,6 +69,6 @@ if __name__ == "__main__":
     # 简单加个简介
     main_gui.set_navigation_about(author="Livingbody",
                                   version="0.0.1",
-                                  github_url="https://github.com/QPT-Family/QGUI")
+                                  github_url="https://hub.fastgit.org/livingbody/animegan_v2_hayao_99_desk")
     # 跑起来~
     main_gui.run()
